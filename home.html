@@ -1,36 +1,59 @@
-<ion-header>
+<!--<ion-header>
   <ion-navbar>
     <ion-title>Home</ion-title>
   </ion-navbar>
 </ion-header>
+-->
 
-<ion-content padding>
+<ion-content >
 <ion-grid>
-  <ion-row>
+<ion-row>
+<ion-col center >
+<button ion-button icon-only>
+  <ion-icon name="arrow-dropleft-circle" isActive="false"></ion-icon>
+	</button>
+</ion-col>
+<ion-col width-80>
+<ion-card> 
+<ion-card-header text-center>
+    Card Header
+  </ion-card-header>
+</ion-card>
+</ion-col>
+
+
+</ion-row>
+
+</ion-grid>
+
+
+
+<ion-grid center>
+  <ion-row center>
     <ion-col ></ion-col>
-	<ion-col >
+	<ion-col text-center>
 	<button ion-button icon-only>
-  <ion-icon name="lock"></ion-icon>
+  <ion-icon name="lock" isActive="false"></ion-icon>
 	</button>
 	</ion-col>
 	<ion-col ></ion-col>
   </ion-row>
-  <ion-row>
-    <ion-col >
+  <ion-row center>
+    <ion-col text-center>
 	<button ion-button icon-only>
 	<ion-icon name="home"></ion-icon>
 	</button>
 	</ion-col>
 	<ion-col ></ion-col>
-	<ion-col > 
+	<ion-col text-center> 
 	<button ion-button icon-only>
 	<ion-icon name="bulb"></ion-icon>
 	</button>
 	</ion-col>
   </ion-row>
-  <ion-row>
+  <ion-row center>
     <ion-col ></ion-col>
-	<ion-col >
+	<ion-col text-center>
 	<button ion-button icon-only>
 	<ion-icon name="settings"></ion-icon>
 	</button>
