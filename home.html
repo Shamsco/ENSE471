@@ -9,14 +9,16 @@
 <ion-grid>
 <ion-row>
 <ion-col center >
-<button ion-button icon-only>
-  <ion-icon name="arrow-dropleft-circle" isActive="false"></ion-icon>
+ 
+<button ion-fab icon-only  >
+  <ion-icon name="arrow-dropleft-circle" ></ion-icon>
 	</button>
+	
 </ion-col>
 <ion-col width-80>
 <ion-card> 
 <ion-card-header text-center>
-    Card Header
+	Home Central
   </ion-card-header>
 </ion-card>
 </ion-col>
@@ -36,21 +38,21 @@
   <ion-row center>
     <ion-col ></ion-col>
 	<ion-col text-center>
-	<button ion-button icon-only>
-  <ion-icon name="lock" isActive="false"></ion-icon>
+	<button id="lock" ion-fab icon-only col-center>
+  <ion-icon name="lock" isActive="false" ></ion-icon>
 	</button>
 	</ion-col>
 	<ion-col ></ion-col>
   </ion-row>
   <ion-row center>
     <ion-col text-center>
-	<button ion-button icon-only>
+	<button id="home" ion-fab icon-only col-center>
 	<ion-icon name="home"></ion-icon>
 	</button>
 	</ion-col>
 	<ion-col ></ion-col>
 	<ion-col text-center> 
-	<button ion-button icon-only>
+	<button id="bulb" ion-fab icon-only col-center>
 	<ion-icon name="bulb"></ion-icon>
 	</button>
 	</ion-col>
@@ -58,11 +60,11 @@
   <ion-row center>
     <ion-col ></ion-col>
 	<ion-col text-center>
-	<button ion-button icon-only>
+	<button id="settings" ion-fab icon-only col-center >
 	<ion-icon name="settings"></ion-icon>
 	</button>
 	</ion-col>
-	<ion-col ></ion-col>
+	<ion-col ></ion-col> 
   </ion-row>
 </ion-grid>
 </ion-content>
