@@ -10,12 +10,12 @@
 <ion-row>
 <ion-col center >
  
-<button ion-fab icon-only id="back" >
+<button ion-fab icon-only id="back" small >
   <ion-icon name="arrow-dropleft-circle" ></ion-icon>
 	</button>
 	
 </ion-col>
-<ion-col width-80>
+<ion-col width-90>
 <ion-card> 
 <ion-card-header id="header" text-center>
 	Home Central
@@ -59,15 +59,15 @@
   <ion-row center>
     <ion-col ></ion-col>
 	<ion-col text-center>
-	<button id="settings" ion-fab icon-only col-center >
-	<ion-icon name="settings"></ion-icon>
+	<button (click)="navigate()" id="settings" ion-fab icon-only col-center >
+	<ion-icon  name="settings" ></ion-icon>
 	</button>
 	</ion-col>
 	<ion-col ></ion-col> 
   </ion-row>
 </ion-grid>
 <ion-fab right bottom>
-  <button ion-fab color="primary" mini>
+  <button ion-fab id="back" mini>
   <ion-icon name="clock" size></ion-icon></button>
     <ion-fab-list side="left">
       <button ion-fab><ion-icon name="unlock"></ion-icon></button>
