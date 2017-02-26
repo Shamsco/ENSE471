@@ -10,7 +10,7 @@
 <ion-row>
 <ion-col center >
  
-<button ion-fab icon-only >
+<button (click)="goBack()" ion-fab icon-only >
   <ion-icon name="arrow-dropleft-circle" ></ion-icon>
 	</button>
 	
@@ -34,24 +34,27 @@
 <ion-grid>
   <ion-row center>
     <ion-col ></ion-col>
-	<ion-col text-center>
+	<ion-col >
 	<button id="edithouse" ion-fab icon-only col-center>
   <ion-icon name="settings" isActive="false" ></ion-icon>
-	</button>
+  	</button>
+	Edit House
 	</ion-col>
 	<ion-col ></ion-col>
   </ion-row>
   <ion-row center>
-    <ion-col text-center>
-	<button id="edithouse" ion-fab icon-only col-center>
+    <ion-col >
+	<button id="addhouse" ion-fab icon-only col-center>
   <ion-icon name="add" id="addbutton"></ion-icon>
 	</button>
+  Add House
 	</ion-col>
 	<ion-col ></ion-col>
-	<ion-col text-center> 
+	<ion-col > 
 	<button id="viewhouse" ion-fab icon-only col-center>
 	<ion-icon name="eye" id="eyebutton"></ion-icon>
 	</button>
+	View Houses
 	</ion-col>
   </ion-row>
  
